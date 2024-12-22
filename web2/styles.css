@@ -1,0 +1,156 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f1e7;
+    color: #582300;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #472202;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: #f3f0ed;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.content {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.menu-button {
+    background-color: #743b08;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align:center;
+    
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-content a {
+    color: rgb(78, 30, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover {
+    background-color: #ddd;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #492515;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #743b08;
+    color: white;
+}
+
+td img {
+    width: 50px;
+    height: auto;
+}
+
+.about, .contact {
+    background-color: #f9eba7;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p, .contact p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #472202;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
